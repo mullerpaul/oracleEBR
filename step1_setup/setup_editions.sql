@@ -33,5 +33,10 @@ COMMENT ON EDITION cust_reporting_0_1_2 IS 'Going to prod on Jan 1st, 2018 - con
 
 SELECT * FROM dba_edition_comments;
 
+-- we need these grants if we want iqpror_user to be able to connect to these editions!
+-- without these, we'd get a version not exist error.
+GRANT use ON EDITION cust_reporting_0_1_1 TO iqprodr_user;
+GRANT use ON EDITION cust_reporting_0_1_2 TO iqprodr_user;
+
 exit
 

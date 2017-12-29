@@ -7,4 +7,5 @@ Some EBR links I've found quite helpful:
 * Oracle 11.2 docs [Managing Editions](https://docs.oracle.com/cd/E11882_01/server.112/e25494/general.htm#ADMIN13166)
 * Joe found this nice [demo](https://www.morganslibrary.org/reference/demos/ebr_demo1.html)
 * Tim Hall wrote up [this doc](https://oracle-base.com/articles/11g/edition-based-redefinition-11gr2). It covers much of the same things as the other links; but with a bit more detail and explanations along the way.
+* This [blog post](https://svenweller.wordpress.com/2015/06/16/working-with-editions-part-2/) shows how to connect to a given edition using SQLPlus, tnsnames and services, or a JDBC parameter called CONNECTION_PROPERTY_EDITION_NAME.
 
