@@ -20,7 +20,7 @@ END dummy_package;
 /
 
 CREATE PACKAGE BODY dummy_package AS
-  gc_version CONSTANT VARCHAR2(10) := '0.0.1';
+  gc_version CONSTANT VARCHAR2(10) := '0.1.1';
 
   PROCEDURE print_version
   IS

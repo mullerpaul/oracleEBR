@@ -1,5 +1,6 @@
-The objects are set up, now we create some reprentative usage of those objects.
+Now that the objects are set up, we create some reprentative usage of those objects.
 After that usage has started, we can start a migration.
+
 The migration contains changes to both the view and the package used by the view, so
 we might expect it to hang until the queires against the view have completed; but since
 we are running the migration in the NEW edition, this should not be the case!
