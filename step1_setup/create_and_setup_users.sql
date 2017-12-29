@@ -29,3 +29,5 @@ GRANT EXECUTE ON dbms_lock TO iqprodr;
 ALTER USER iqprodr ENABLE EDITIONS;
 ALTER USER iqprodr_user ENABLE EDITIONS;
 
+exit
+
